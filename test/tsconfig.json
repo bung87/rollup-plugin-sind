@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "noImplicitAny":false,
+      "noImplicitThis":false,
+      "strictNullChecks":false,
+      "noImplicitReturns":false,
+      "diagnostics":false,
+      "removeComments": false
+    },
+    "exclude": [
+      "node_modules/**"
+    ]
+  }
